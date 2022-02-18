@@ -4,71 +4,71 @@
 
 //for loop : number of times the loop is to be executed is known beforehand
 
-// var count;
-// document.write('Starting loop' + '<br>')
-// for(count=20; count<30; count++){
-//     document.write('current count' + count);
-//     document.write('<br>')
-// }
-// document.write('loop stopped' + '<br>')
+var count;
+document.write('Starting loop' + '<br>')
+for(count=20; count<30; count++){
+    document.write('current count' + count);
+    document.write('<br>')
+}
+document.write('loop stopped' + '<br>')
 
-// //one more example of for loop
+//one more example of for loop
 
-// var b;
-// document.write('starting loop' + '<br>')
-// for(b = -15; b<0; b++){
-//     document.write('current count' + b)
-//     document.write('<br>')
-// }
-// document.write('loop stopped')
-// document.write('<br>')
-// //one more example of for loop
+var b;
+document.write('starting loop' + '<br>')
+for(b = -15; b<0; b++){
+    document.write('current count' + b)
+    document.write('<br>')
+}
+document.write('loop stopped')
+document.write('<br>')
+//one more example of for loop
 
-// var c;
-// document.write('new counting' + '<br>')
-// for(c=100; c<129; c++ ){
-//     document.write('current counting' + c)
-//     document.write('<br>')
-// }
-// document.write('loop stopped')
-// document.write('<br>')
-
-
-
-//while loop: when you don't know how many times a loop will execute at runtime
+var c;
+document.write('new counting' + '<br>')
+for(c=100; c<129; c++ ){
+    document.write('current counting' + c)
+    document.write('<br>')
+}
+document.write('loop stopped')
+document.write('<br>')
 
 
-// var count = 100;
-// document.write('starting loop');
-// document.write('<br>')
-// while(count < 110){
-//     document.write('current count ' +count+ '<br>');
-//     count++;
-// }
-// document.write('loop stopped');
-// document.write('<br>')
+
+while loop: when you don't know how many times a loop will execute at runtime
 
 
-// //one more example of while loop
-// var d = 10;
-// document.write('starting loop')
-// document.write('<br>')
-// while(d<20){
-//     document.write('current count ' +d+ '<br>')
-//     d++;
-// }
-// document.write('loop stopped')
-// document.write('<br>')
+var count = 100;
+document.write('starting loop');
+document.write('<br>')
+while(count < 110){
+    document.write('current count ' +count+ '<br>');
+    count++;
+}
+document.write('loop stopped');
+document.write('<br>')
 
 
-// //one more example of while loop
-// var e = -15;
-// document.write('startin loop' + '<br>')
-// while(e<0){
-//     document.write('current counting' +e+ '<br>')
-//     e++;
-// }
-// document.write(' loop stopped')
+//one more example of while loop
+var d = 10;
+document.write('starting loop')
+document.write('<br>')
+while(d<20){
+    document.write('current count ' +d+ '<br>')
+    d++;
+}
+document.write('loop stopped')
+document.write('<br>')
+
+
+//one more example of while loop
+var e = -15;
+document.write('startin loop' + '<br>')
+while(e<0){
+    document.write('current counting' +e+ '<br>')
+    e++;
+}
+document.write(' loop stopped')
 
 
 
